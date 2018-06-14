@@ -15,7 +15,8 @@ final class SmsTest extends TestCase
     /**
      * @throws \Exception
      */
-    public function testSendSms200() {
+    public function testSendSms200()
+    {
         $sms = new Sms(self::API_USER, self::API_KEY);
         $sms->setMessage(self::MSG);
 
@@ -25,7 +26,8 @@ final class SmsTest extends TestCase
     /**
      * @throws \Exception
      */
-    public function testSendSms400() {
+    public function testSendSms400()
+    {
         $sms = new Sms(self::API_USER, self::API_KEY);
 
         try {
@@ -39,7 +41,8 @@ final class SmsTest extends TestCase
     /**
      * @throws \Exception
      */
-    public function testSendSms403() {
+    public function testSendSms403()
+    {
         $sms = new Sms('12345', '1234');
         $sms->setMessage(self::MSG);
 

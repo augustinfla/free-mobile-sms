@@ -28,7 +28,7 @@ class Sms
      * @param string $apiUser
      * @param string $apiKey
      */
-    public  function __construct(string $apiUser, string $apiKey)
+    public function __construct(string $apiUser, string $apiKey)
     {
         $this->apiUser = $apiUser;
         $this->apiKey = $apiKey;

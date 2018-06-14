@@ -5,7 +5,7 @@ Active API Free Mobile in your account
 
 ##### Installation with composer
 
-    $ composer require augustinfla/free-mobile-sms
+    $ composer require augustinfla/free-mobile-sms "~1.0"
 
 
 ##### Example
