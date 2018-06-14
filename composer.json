@@ -2,7 +2,7 @@
   "name": "augustinfla/free-mobile-sms",
   "type": "library",
   "description": "Use API SMS Free Mobile",
-  "keywords": ["free", "free mobile", "api", "api free mobile"],
+  "keywords": ["sms", "free", "free mobile", "api", "api free mobile"],
   "license": "MIT",
   "authors": [
     {
@@ -20,8 +20,5 @@
   "require-dev": {
     "friendsofphp/php-cs-fixer": "^2.12",
     "phpunit/phpunit": "^7"
-  },
-  "suggest": {
-  },
-  "minimum-stability": "stable"
+  }
 }
