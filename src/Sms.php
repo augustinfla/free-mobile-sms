@@ -4,7 +4,7 @@ namespace FreeMobile;
 
 use Exception;
 
-class Sms
+class Sms implements SmsInterface
 {
     public const HTTP_MSG_UNDEFINED = 'Undefined';
     public const HTTP_MSG_200 = 'Le SMS a été envoyé sur votre mobile.';
